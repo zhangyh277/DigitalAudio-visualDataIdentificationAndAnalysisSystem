@@ -1,0 +1,26 @@
+server:
+  port: 8086
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 10MB
+      max-request-size: 20MB
+      file-size-threshold: 512KB
+      location: /
+
+#graduation:
+#  backend-system:
+#    python: "python"
+#    algorithm-file-base: "/root/application"
+#    upload-base: "/root/application/backendSystem/upload"
+#    file-base-url: "http://localhost:8086"
+#    result-base-path: "/root/application/backendSystem/result"
+
+graduation:
+  backend-system:
+    python: "D:/python_thing/python-things/Anaconda/Anaconda/envs/py38/python.exe"
+    algorithm-file-base: "D:/WorkSpace/graduation-project/application"
+    upload-base: "D:/WorkSpace/graduation-project/application/upload"
+    file-base-url: "http://localhost:8086"
+    result-base-path: "D:/WorkSpace/graduation-project/application/result"
